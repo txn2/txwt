@@ -1,0 +1,1 @@
+FROM v2tec/watchtower:0.3.0
