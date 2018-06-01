@@ -13,5 +13,5 @@ build-amd64:
 	docker push $(IMAGE):latest
 
 build-armhf:
-	docker build -t $(IMAGE):armhf-$(VERSION) -f ./dockerfiles/arm/Dockerfile .
+	docker build -t $(IMAGE):armhf-$(VERSION) -f ./dockerfiles/armhf/Dockerfile .
 	docker push $(IMAGE):armhf-$(VERSION)
